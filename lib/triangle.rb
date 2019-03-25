@@ -6,7 +6,7 @@ def initialize(side_a, side_b, side_c)
   @side_c = side_c
 end
 
-def kind
+def kind(side_a, side_b, side_c)
   if side_a == side_b && side_b == side_c then
     :equilateral
   elsif side_a == side_b || side_a == side_c || side_b == side_c then
