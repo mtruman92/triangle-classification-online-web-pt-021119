@@ -22,4 +22,7 @@ else
 end
 end
 
+class TriangleError < StandardError
+end
+
 end
